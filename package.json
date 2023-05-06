@@ -1,0 +1,13 @@
+{
+  "name": "2d-game-learn",
+  "version": "1.0.0",
+  "description": "learning game development using JS",
+  "main": "app.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "mahendracandi",
+  "license": "ISC"
+}
